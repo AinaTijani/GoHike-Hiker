@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>LOGO</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  <body>
+
+    <header>
+      <nav id="navbar" class="">
+      <div class="nav-wrapper">
+        <!-- Navbar Logo -->
+        <div class="logo">
+          <!-- Logo Placeholder for Inlustration -->
+          <a href="homepage.html"><i class="fa fa-angellist"></i> Logo</a>
+        </div>
+    
+        <!-- Navbar Links -->
+        <ul id="menu">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="index.html">Hiking Planner</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#" onclick="self.close()">Exit</a></li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+<!-- planner section -->
+  <div class="page-header-background">
+  <div class="login-box">
+    <h2>Planner</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" id="fileName" class="form-control" required="">
+        <label>File Name</label>
+      </div>
+      <div class="user-box2">
+        <textarea id="fileContents"  class="form-control" rows="5" placeholder="Content"></textarea>
+        <label>Content</label>
+      </div>
+      
+    </form>
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+  </div>
+</div>
+
+    <script src="main.js">
+      
+      
+    </script>
+  </body>
+</html>
