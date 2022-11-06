@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type='text/css' rel='stylesheet' href='homepage.css' />
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Open+Sans+Condensed:300" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <title>LOGO</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="">
+        <div class="nav-wrapper">
+          <!-- Navbar Logo -->
+          <div class="logo">
+            <!-- Logo Placeholder for Inlustration -->
+            <a href="homepage.html"><i class="fa fa-angellist"></i> Logo</a>
+          </div>
+      
+          <!-- Navbar Links -->
+          <ul id="menu">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="index.html">Hiking Planner</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#" onclick="self.close()">Exit</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- </div> -->
+<!DOCTYPE html>
+
+	<!-- background, header and search box -->
+	<div class="page-header-background">
+		<div class="page-header">
+			<div class="page-title">
+				<h1 class="header">Hiker</h1>
+				<h2>Find your trail & a hike near you! </h2>
+                <h3>Get the weather for nearby trails after entering the city name!!</h3>
+			</div>
+			<!-- search box -->
+			<div class="search-div">
+				<div class="box">
+				  <div class="container-4">
+				    <input type="text" name="city_input" id="city_input" placeholder="Enter City" aria-label="input city name" autofocus required/>
+				    <button onclick="buttonClicked()" class="icon"><img  class="fa fa-search" src='search.png'></button>
+				  </div>
+				</div>
+			</div>
+			<!-- search results populate below -->
+			<div class="search-results" id="search-results">
+                <br>
+                <div id="invalid"></div>
+                <div id="country"></div>
+                 <div id="name"></div>
+                 <!--<div id="icon"></div>-->
+                 <img src="http://openweathermap.org/img/wn/04d@2x.png" alt="">
+                 <div id="description"></div><br>
+                 <div id="humidity"></div>
+                 <div id="degree"></div>
+                 <div id="speed"></div>
+                 <div id="temp"></div>
+                 <br>
+
+                </div>
+    
+			</div>
+		</div>
+		<div class="page-header-fade">
+		</div>
+	</div>
+
+
+	</div>
+	
+	<!-- custom javaScript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="homepage.js"></script>
+</body>
+</html>
